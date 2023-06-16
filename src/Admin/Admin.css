@@ -1,0 +1,75 @@
+.BannerContact {
+    width: 100%;
+   
+    text-align: center;
+    background: linear-gradient(181deg, #2f5e6ce3, #faffdb);
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+.admin-optaions {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    padding: 10px 13px 0 18px;
+    text-align: center;
+}
+
+.main-admin{
+    display: flex;
+}
+
+.dashbord {
+    width: 100%;
+    text-align: center;
+}
+.menubars {
+    border: 1px solid;
+    border-top: none;
+    width: 25%;
+    border-bottom: none;
+    background: #20bac5;
+    padding: 16px 9px;
+    /* list-style: none; */
+    /* line-height: inherit; */
+}
+.menu {
+    text-align: center;
+}
+.menu-text {
+    list-style: none;
+    line-height: 53px;
+    text-align: center;
+    cursor: pointer;
+    /* width: 39%; */
+}
+
+.admin-img {
+    background: red;
+    border-radius: 100%;
+    width: 97px;
+    margin: 9px;
+    height: 83px;
+    /* padding: 8px; */
+}
+
+.hompage-btn {
+    line-height: 57px;
+    border-bottom: 1px solid;
+}
+.options-here {
+    line-height: 57px;
+  
+}
+.dsahbordheading {
+    background: #20bac5;
+    font-size: 40px;
+    color: white;
+}
+
+p.admincrate {
+    color: #f4f4f4;
+    /* text-decoration: none; */
+    /* border-bottom: none; */
+}

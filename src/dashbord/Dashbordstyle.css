@@ -1,0 +1,23 @@
+form.dashbordFormtext {
+    background: none;
+    text-align: initial;
+    width: 100%;
+   color: black;
+}
+
+input.dashInput {
+    border-radius: inherit;
+    background: none;
+    border: 1px solid;
+}
+
+input.dashInputFile {
+    width: 100%;
+    border: 1px solid;
+    padding: 14px 0;
+}
+
+button.uploadDatabtn {
+    padding: 6px;
+    font-size: unset;
+}

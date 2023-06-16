@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.BannerContact {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(181deg, #2f5e6ce3, #faffdb);
+}
+
+.text-Contact-us {
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-size: unset;
+    padding: 52px 0;
+}
+
+h2.contact-us-heading {
+    color: white;
+    position: relative;
+   
+    animation: 3s ease-in 1s 2 reverse both paused slidein;
+}
+
+.form-text.form-text2 {
+    width: 43%;
+    margin: auto;
+    /* margin: 0 3px 0 236px; */
+    padding: 0 0 0 0;
+}
+
+button.send {
+    float: left;
+    font-weight: 600;
+    font-size: larger;
+}
+p.contact-paragraph {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin: 200px;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@keyframes contact-us-heading {
+    0%   { left: 0px; top: 0px;}
+    50%  { left: 200px; top: 0px;}
+ 
+  }
